@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300i');
+
+div,body,header,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ background-color: #333;
+ font-family: 'Nunito Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+
+#input{
+    width: 70%;
+    margin-left: 20%;
+    outline: none !important;
+    margin-top: 2%;
+    height: 55px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#input:focus{
+    padding-left: 40px;
+}
+.search-icon{
+    position: absolute;
+    z-index: 9999;
+    left: 21.4pc;
+    top: 7.4pc;
+    margin: 18px 0px 0px 10px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+
+.nav-toggle{
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 330ms ease-out;
+}
+
+li{
+   list-style: none;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-left: 75%;
+ 
+}
+.main-navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e50914;
+    text-align: center;
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+}
+
+.open-nav{
+    transform: translateX(-80%);
+    z-index: 1;
+}
+
+.Close{
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    float: right;
+    left: -25px;
+}
+.times{
+    font-size: 35px !important;
+    color:  #333 !important;
+}
+.line-menu {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 6px;
+  }
+
+  .line-menu.half.start, .line-menu.half.end {
+    width: 50%;
+  }
+
+  .form-container{
+      background-color: #fff;
+      height: 80%;
+      margin: -13px auto;
+      width: 40%;
+  }
+
+  .heading{
+      margin-top: -10%;
+      position: relative;
+      top: 15%;
+      margin-left: -5%;
+  }
+
+  .login-form{
+      margin: 25% auto;
+      margin-left:50px;
+      margin-right: 10px;
+  }
+
+  #emailLogin, #passwordLogin, #userName, #passwordSignUp{
+      width: 80%;
+      outline: none;
+      margin-bottom: 25px;
+  }
+
+  .btn{
+      box-sizing: border-box;
+      appearance: none;
+      background-color:  #e50914;
+      border: 2px solid #e50914;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1;
+      padding: 5px 130px;
+      width: 80%;
+      transition: 0.2s ease-in-out;
+      
+  }
+  .btn:hover{
+      background: transparent;
+      color: #e50914;
+  }
+
+  form a{
+    color: black;
+    margin-left: -30px;
+  }
+
+  form a:hover{
+      color: #e50914;
+  }
+
+  .sign-up{
+      margin-top: -10px;
+  }
+
+  .sign-in-body{
+      overflow-y: hidden;
+  }
+
+  .reset{
+    padding: 5px 120px;
+  }
+
+  .sign-up-con{
+    height: 81%;
+    margin: -16px auto;
+  }
+  .output-container{
+      color: #ffffff;
+      width: 100%;
+      height: auto;
+      margin-top: 15px;
+  }
+
+  .poster{
+      width: 90% !important;
+      height: 40%;
+  }
+  .movie-title{
+      margin-top: 10px;
+      padding: 0 3px;
+  }
+  .movie-url{
+      color: #283677;
+      display: block;
+      padding: 10px 1px;
+      text-decoration: none;
+      background: white;
+      margin-bottom: 10px;
+  }
+  .movie-url:hover{
+      color:  white !important;
+      background: #283677;
+  }
+

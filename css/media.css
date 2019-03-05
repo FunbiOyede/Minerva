@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300i');
+
+@media screen and (max-width:375px){
+ body{
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ li{
+    font-size: 16px !important;
+    display: block;
+ }
+
+ .Close{
+     top: 1%;
+ }
+
+ .title{
+     font-size: 26px;
+ }
+
+ #input{
+     width: 70%;
+     margin-left: 15%;
+ }
+
+ .form-container{
+    height: 80%;
+    margin: 27px auto;
+    width: 80%;
+ }
+
+ .btn{
+    padding: 5px 89px;
+    padding-left: 70px;
+ }
+
+ #emailLogin, #passwordLogin, #userName, #passwordSignUp{
+     border-left: transparent !important;
+     border-top: transparent !important;
+     border-right: transparent !Important;
+     border-bottom: 1px solid black;
+ }
+
+ .heading{
+     margin-top: 0%;
+     top:10%;
+ }
+
+ .reset{
+    padding-left: 39px;
+ }
+}
