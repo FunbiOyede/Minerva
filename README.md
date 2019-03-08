@@ -9,6 +9,7 @@
 <li>Css</li>
 <li>Jquery</li>
 <li>Javascript</li>
+<li>Boostrap</li>
 <li>Font awesome</li>
 </ul>
 
